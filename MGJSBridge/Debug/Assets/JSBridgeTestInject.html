@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="pragma" content="no-cache">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <title>Fusion Test Page</title>
+  <style>
+    h1, h2, h3 {
+      text-align: center;
+      color: #fa8919;
+    }
+
+    .tips {
+      font-weight: bolder;
+    }
+
+    .demo-list div {
+      /* display: inline-block; */
+      margin-top: 5px;
+      /* margin-left: 5px; */
+      text-align: center;
+      padding: 2px;
+      background-color: #fa8919;
+      border-radius: 5px;
+      color: #fff;
+      list-style: none;
+      width: 100%;
+      line-height: 35px;
+      height: 35px;
+      list-style: none;
+      cursor: pointer;
+    }
+
+    .result-title {
+      margin-top: 40px;
+    }
+    .demo-result {
+      margin-top: 20px;
+      width: 100%;
+      height: 300px;
+      border: solid 1px #e3e3e3;
+      border-radius: 3px;
+      padding: 1px;
+      overflow: scroll;
+    }
+
+  #result-log {
+  text-align:left;
+
+  margin:0 auto;
+
+  margin-bottom:25px;
+
+  padding:10px;
+
+  background:#fff;
+
+  height:170px;
+
+
+  border:1px solid #ACD8F0;
+
+  overflow:auto;
+  
+  }
+  </style>
+</head>
+
+<body>
+
+  <h2>JSBridge test</h2>
+  <div class="ddbridge-demo">
+    <div class="demo-list">
+        Method name: <input type="text" value="pickImage" id = "methodName" />
+        <br />
+        <br />
+        param json string: <input type="text" id = "params" />
+        <br />
+        <br />
+      <div onclick="runJS()">执行JS</div>
+    </div>
+    <h3 class="result-title">执行结果</h3>
+    <div id="result-log">
+    </div>
+    <pre>
+      <div class="demo-result">
+      </div>
+    </pre>
+  </div>
+  <script>
+
+  
+      function runJS() {
+          document.getElementById('result-log').innerHTML = ''
+          
+          var methodInput = document.getElementById("methodName")
+          
+          var methodName = methodInput.value
+          
+          
+          if (methodName.length == 0) {
+              alert("methodName can't be nil")
+              return
+          }
+          
+          var param = {}
+          var paramsInput = document.getElementById("params")
+          var jsonString = paramsInput.value
+          if (jsonString.length != 0) {
+              try {
+                  param = JSON.parse(jsonString)
+              } catch(err) {
+                alert("json string unleagal")
+              }
+          }
+          
+          callHandler(methodName, param, function(e){
+              document.getElementById('result-log').innerHTML = document.getElementById('result-log').innerHTML + 'callBack:' + '<br/>'
+              document.getElementById('result-log').innerHTML = document.getElementById('result-log').innerHTML + e
+          })
+          
+      }
+  </script>
+ 
+</body>
+</html>
+

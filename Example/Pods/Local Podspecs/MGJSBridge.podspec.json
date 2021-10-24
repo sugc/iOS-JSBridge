@@ -1,0 +1,45 @@
+{
+  "name": "MGJSBridge",
+  "version": "0.1.0",
+  "summary": "A short description of MGJSBridge.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sugc/iOS-JSBridge",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sugc": "2528397406@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/sugc/MGJSBridge.git",
+    "tag": "0.1.0"
+  },
+  "module_name": "MGJSBridge",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_versions": "5.0",
+  "default_subspecs": "Default",
+  "subspecs": [
+    {
+      "name": "Default",
+      "resource_bundles": {
+        "MGJSBridgeResources": [
+          "MGJSBridge/Assets/**"
+        ]
+      },
+      "source_files": "MGJSBridge/Classes/**/*.swift"
+    },
+    {
+      "name": "Debug",
+      "resource_bundles": {
+        "MGJSBridgeResources": [
+          "MGJSBridge/Debug/Assets/**"
+        ]
+      },
+      "source_files": "MGJSBridge/Debug/Classes/**/*.swift"
+    }
+  ],
+  "swift_version": "5.0"
+}

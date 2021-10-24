@@ -1,0 +1,9 @@
+platform :ios, '14.0'
+
+target  'JSBridge' do
+
+pod 'MGJSBridge', :path => '../MGJSBridge.podspec', subspecs: ['Default','Debug']
+ 
+
+end
+

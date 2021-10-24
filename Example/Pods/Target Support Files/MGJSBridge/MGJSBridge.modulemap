@@ -1,0 +1,6 @@
+module MGJSBridge {
+  umbrella header "MGJSBridge-umbrella.h"
+
+  export *
+  module * { export * }
+}

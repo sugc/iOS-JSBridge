@@ -1,0 +1,18 @@
+PODS:
+  - MGJSBridge/Debug (0.1.0)
+  - MGJSBridge/Default (0.1.0)
+
+DEPENDENCIES:
+  - MGJSBridge/Debug (from `../MGJSBridge.podspec`)
+  - MGJSBridge/Default (from `../MGJSBridge.podspec`)
+
+EXTERNAL SOURCES:
+  MGJSBridge:
+    :path: "../MGJSBridge.podspec"
+
+SPEC CHECKSUMS:
+  MGJSBridge: ca5bb45578c19001e18923be437098876c1a8f5e
+
+PODFILE CHECKSUM: 25c8d4aa6920b49fa08647d7a4da492006ce6346
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,6 @@
+module Pods_JSBridge {
+  umbrella header "Pods-JSBridge-umbrella.h"
+
+  export *
+  module * { export * }
+}

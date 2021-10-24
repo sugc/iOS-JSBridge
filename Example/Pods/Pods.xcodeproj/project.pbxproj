@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		035BF8A3A6061158C6D0E40A8355C7E3 /* Pods-JSBridge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35FFF102A9EEFB6F4BD146F73E580C2D /* Pods-JSBridge-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0528F4E59299F13DEF51671C52EB174D /* MGWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5901351D78C5734696EBB156FAD4DD02 /* MGWebView.swift */; };
+		152E652949FF5587C2138CA1DF952649 /* Pods-JSBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FE031C3E75F086D0BDFD0BB495878D /* Pods-JSBridge-dummy.m */; };
+		2E916032AFC3FE113E54B149BCED5953 /* MGJSBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818924D49666478B86BEDDA9CFE20157 /* MGJSBridge.swift */; };
+		A16CA2ACD1817C7EBEFE1424C8163201 /* MGJSBridge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBFE2A61928FE7E38BF9A30FAFB48125 /* MGJSBridge-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D45E140B2728D064D681090397E596E9 /* MGJSBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E773CEBAEDEC8F9A5D0F1E731AA2035 /* MGJSBridge-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15D44D4E1770638E810CA8F0A03860FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3504F7508F3C296FEA753CF1B5BAC788;
+			remoteInfo = "MGJSBridge-MGJSBridgeResources";
+		};
+		2A6AF6A9C126A46148726CD6C8786B6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3504F7508F3C296FEA753CF1B5BAC788;
+			remoteInfo = "MGJSBridge-MGJSBridgeResources";
+		};
+		6ECF0BB7EB6E2063A6C4720320A66D2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58F59563CC49653FDCCA27BAEC9E58DF;
+			remoteInfo = MGJSBridge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		054C71F6B07BB8F5230DD62C3126BA53 /* MGJSBridgeResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGJSBridgeResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B1F886123CA5FE806DBC9AD2C1C48C1 /* libPods-JSBridge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSBridge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E773CEBAEDEC8F9A5D0F1E731AA2035 /* MGJSBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGJSBridge-dummy.m"; sourceTree = "<group>"; };
+		18ABF273209262F5C446218A7B3DAA74 /* JSBridgeTest.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = JSBridgeTest.html; path = MGJSBridge/Debug/Assets/JSBridgeTest.html; sourceTree = "<group>"; };
+		1D618D83CE82043464171F5EE493B680 /* Pods-JSBridge-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSBridge-acknowledgements.plist"; sourceTree = "<group>"; };
+		25D489E69998BE46583E5FEF30769912 /* MGJSBridge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MGJSBridge.modulemap; sourceTree = "<group>"; };
+		271026BFAB0A325B38B984A62B918A94 /* MGJSBridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGJSBridge.release.xcconfig; sourceTree = "<group>"; };
+		2C705CC035E37D26012726D1A303C844 /* JSBridgeTestInject.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = JSBridgeTestInject.html; path = MGJSBridge/Debug/Assets/JSBridgeTestInject.html; sourceTree = "<group>"; };
+		31975BF72DFC45E280454947D748E39C /* MGJSBridge.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MGJSBridge.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		35FFF102A9EEFB6F4BD146F73E580C2D /* Pods-JSBridge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSBridge-umbrella.h"; sourceTree = "<group>"; };
+		478209115C759D9A23B6AB7C79957682 /* Pods-JSBridge-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSBridge-resources.sh"; sourceTree = "<group>"; };
+		512C6CFFBC78C8A33594C4CD2A2E6CD9 /* Pods-JSBridge-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSBridge-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5901351D78C5734696EBB156FAD4DD02 /* MGWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MGWebView.swift; path = MGJSBridge/Debug/Classes/MGWebView.swift; sourceTree = "<group>"; };
+		5D13276E47E8E22B6050EB758D87C1C8 /* Pods-JSBridge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JSBridge.modulemap"; sourceTree = "<group>"; };
+		805D47E28B1B0FC682C6FED28D61C3BE /* Pods-JSBridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSBridge.release.xcconfig"; sourceTree = "<group>"; };
+		818924D49666478B86BEDDA9CFE20157 /* MGJSBridge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MGJSBridge.swift; path = MGJSBridge/Classes/MGJSBridge.swift; sourceTree = "<group>"; };
+		8D95F8CF40C2C1D04C564E1A9600B3FD /* libMGJSBridge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMGJSBridge.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A00AD36DD6BE5C1E82F890960C20915B /* Pods-JSBridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSBridge.debug.xcconfig"; sourceTree = "<group>"; };
+		B385C8C1EDE54CBC5EFF340FE125E901 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B3FE031C3E75F086D0BDFD0BB495878D /* Pods-JSBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSBridge-dummy.m"; sourceTree = "<group>"; };
+		B4DB6927CDE77187E43C37003995515C /* ResourceBundle-MGJSBridgeResources-MGJSBridge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MGJSBridgeResources-MGJSBridge-Info.plist"; sourceTree = "<group>"; };
+		B4E48DA0B6F0FA387634058AA9579C54 /* MGJSBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGJSBridge-prefix.pch"; sourceTree = "<group>"; };
+		CBFE2A61928FE7E38BF9A30FAFB48125 /* MGJSBridge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGJSBridge-umbrella.h"; sourceTree = "<group>"; };
+		F4624C858656916C14F547478AF7E0AA /* MGJSBridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGJSBridge.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C614CB80601B049C608F70B65C2A209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E712A27ED707C512CB7A2B16C47966E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E39EB9ACE9D468EBC608DCA427F01933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		086951840F3ADDB165AE7A195E006DE8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				584FF54D7E56BD95D215B896D7FA8C88 /* Pods-JSBridge */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		10A39CFBEAD1FA48481D4C4834E4E237 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				31975BF72DFC45E280454947D748E39C /* MGJSBridge.podspec */,
+				B385C8C1EDE54CBC5EFF340FE125E901 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		34BE0C12BE1056FD077F6176D604E9D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D95F8CF40C2C1D04C564E1A9600B3FD /* libMGJSBridge.a */,
+				0B1F886123CA5FE806DBC9AD2C1C48C1 /* libPods-JSBridge.a */,
+				054C71F6B07BB8F5230DD62C3126BA53 /* MGJSBridgeResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		584FF54D7E56BD95D215B896D7FA8C88 /* Pods-JSBridge */ = {
+			isa = PBXGroup;
+			children = (
+				5D13276E47E8E22B6050EB758D87C1C8 /* Pods-JSBridge.modulemap */,
+				512C6CFFBC78C8A33594C4CD2A2E6CD9 /* Pods-JSBridge-acknowledgements.markdown */,
+				1D618D83CE82043464171F5EE493B680 /* Pods-JSBridge-acknowledgements.plist */,
+				B3FE031C3E75F086D0BDFD0BB495878D /* Pods-JSBridge-dummy.m */,
+				478209115C759D9A23B6AB7C79957682 /* Pods-JSBridge-resources.sh */,
+				35FFF102A9EEFB6F4BD146F73E580C2D /* Pods-JSBridge-umbrella.h */,
+				A00AD36DD6BE5C1E82F890960C20915B /* Pods-JSBridge.debug.xcconfig */,
+				805D47E28B1B0FC682C6FED28D61C3BE /* Pods-JSBridge.release.xcconfig */,
+			);
+			name = "Pods-JSBridge";
+			path = "Target Support Files/Pods-JSBridge";
+			sourceTree = "<group>";
+		};
+		5C961CD99CFA6A237C27143AFF11A2E9 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				18ABF273209262F5C446218A7B3DAA74 /* JSBridgeTest.html */,
+				2C705CC035E37D26012726D1A303C844 /* JSBridgeTestInject.html */,
+				5901351D78C5734696EBB156FAD4DD02 /* MGWebView.swift */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+		6935C0EB46DB485915AF941F9D77230F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25D489E69998BE46583E5FEF30769912 /* MGJSBridge.modulemap */,
+				0E773CEBAEDEC8F9A5D0F1E731AA2035 /* MGJSBridge-dummy.m */,
+				B4E48DA0B6F0FA387634058AA9579C54 /* MGJSBridge-prefix.pch */,
+				CBFE2A61928FE7E38BF9A30FAFB48125 /* MGJSBridge-umbrella.h */,
+				F4624C858656916C14F547478AF7E0AA /* MGJSBridge.debug.xcconfig */,
+				271026BFAB0A325B38B984A62B918A94 /* MGJSBridge.release.xcconfig */,
+				B4DB6927CDE77187E43C37003995515C /* ResourceBundle-MGJSBridgeResources-MGJSBridge-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MGJSBridge";
+			sourceTree = "<group>";
+		};
+		7262B32FF832CB97C2597FB56BC3C390 /* MGJSBridge */ = {
+			isa = PBXGroup;
+			children = (
+				5C961CD99CFA6A237C27143AFF11A2E9 /* Debug */,
+				A322F7E4FAE1AFFAE3DCB59A6560079D /* Default */,
+				10A39CFBEAD1FA48481D4C4834E4E237 /* Pod */,
+				6935C0EB46DB485915AF941F9D77230F /* Support Files */,
+			);
+			name = MGJSBridge;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A322F7E4FAE1AFFAE3DCB59A6560079D /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				818924D49666478B86BEDDA9CFE20157 /* MGJSBridge.swift */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		B063DC242B2A5D868ACE0EF72959193B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7262B32FF832CB97C2597FB56BC3C390 /* MGJSBridge */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B063DC242B2A5D868ACE0EF72959193B /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				34BE0C12BE1056FD077F6176D604E9D6 /* Products */,
+				086951840F3ADDB165AE7A195E006DE8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ACADC102F83E96267F5B5F69993FDA5C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035BF8A3A6061158C6D0E40A8355C7E3 /* Pods-JSBridge-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8FCD5F9AFD06D20A6C2710066EE9E31 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A16CA2ACD1817C7EBEFE1424C8163201 /* MGJSBridge-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3504F7508F3C296FEA753CF1B5BAC788 /* MGJSBridge-MGJSBridgeResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB6659E1820E9A4E2CAE4F50E0B1EFBF /* Build configuration list for PBXNativeTarget "MGJSBridge-MGJSBridgeResources" */;
+			buildPhases = (
+				9551AEDBEC83D298CD49F509B98E928A /* Sources */,
+				6E712A27ED707C512CB7A2B16C47966E /* Frameworks */,
+				CE7023AACDB485E81B162ECF5362C2B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MGJSBridge-MGJSBridgeResources";
+			productName = "MGJSBridge-MGJSBridgeResources";
+			productReference = 054C71F6B07BB8F5230DD62C3126BA53 /* MGJSBridgeResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		58F59563CC49653FDCCA27BAEC9E58DF /* MGJSBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A5BE611F245673B7266C3FA6AA4AC56 /* Build configuration list for PBXNativeTarget "MGJSBridge" */;
+			buildPhases = (
+				C8FCD5F9AFD06D20A6C2710066EE9E31 /* Headers */,
+				0601DAC1EE12D59F133B481359FF1376 /* Sources */,
+				2C614CB80601B049C608F70B65C2A209 /* Frameworks */,
+				6632F6DD903A4C655B6418C5C5198376 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3157D8E15B32A289588CAE214A8ADFE9 /* PBXTargetDependency */,
+				20252B702EAC0DD4E3E2CFA6DC42657E /* PBXTargetDependency */,
+			);
+			name = MGJSBridge;
+			productName = MGJSBridge;
+			productReference = 8D95F8CF40C2C1D04C564E1A9600B3FD /* libMGJSBridge.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5BBEAB2C0D2167F510E6128E9DD4CEDD /* Pods-JSBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 660D6DFB5D3710CA7327C7E32648F91F /* Build configuration list for PBXNativeTarget "Pods-JSBridge" */;
+			buildPhases = (
+				ACADC102F83E96267F5B5F69993FDA5C /* Headers */,
+				2070AAB9FF089D3C601628C5ED5A4881 /* Sources */,
+				E39EB9ACE9D468EBC608DCA427F01933 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA98D7D9FAFA9D1655E490BFEEFBBDB1 /* PBXTargetDependency */,
+			);
+			name = "Pods-JSBridge";
+			productName = "Pods-JSBridge";
+			productReference = 0B1F886123CA5FE806DBC9AD2C1C48C1 /* libPods-JSBridge.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 34BE0C12BE1056FD077F6176D604E9D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58F59563CC49653FDCCA27BAEC9E58DF /* MGJSBridge */,
+				3504F7508F3C296FEA753CF1B5BAC788 /* MGJSBridge-MGJSBridgeResources */,
+				5BBEAB2C0D2167F510E6128E9DD4CEDD /* Pods-JSBridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE7023AACDB485E81B162ECF5362C2B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6632F6DD903A4C655B6418C5C5198376 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/MGJSBridge/MGJSBridge.modulemap",
+				"${PODS_ROOT}/Headers/Public/MGJSBridge/MGJSBridge-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/MGJSBridge-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/MGJSBridge/MGJSBridge.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/MGJSBridge/MGJSBridge-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0601DAC1EE12D59F133B481359FF1376 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45E140B2728D064D681090397E596E9 /* MGJSBridge-dummy.m in Sources */,
+				2E916032AFC3FE113E54B149BCED5953 /* MGJSBridge.swift in Sources */,
+				0528F4E59299F13DEF51671C52EB174D /* MGWebView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2070AAB9FF089D3C601628C5ED5A4881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152E652949FF5587C2138CA1DF952649 /* Pods-JSBridge-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9551AEDBEC83D298CD49F509B98E928A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20252B702EAC0DD4E3E2CFA6DC42657E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MGJSBridge-MGJSBridgeResources";
+			target = 3504F7508F3C296FEA753CF1B5BAC788 /* MGJSBridge-MGJSBridgeResources */;
+			targetProxy = 2A6AF6A9C126A46148726CD6C8786B6D /* PBXContainerItemProxy */;
+		};
+		3157D8E15B32A289588CAE214A8ADFE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MGJSBridge-MGJSBridgeResources";
+			target = 3504F7508F3C296FEA753CF1B5BAC788 /* MGJSBridge-MGJSBridgeResources */;
+			targetProxy = 15D44D4E1770638E810CA8F0A03860FF /* PBXContainerItemProxy */;
+		};
+		AA98D7D9FAFA9D1655E490BFEEFBBDB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGJSBridge;
+			target = 58F59563CC49653FDCCA27BAEC9E58DF /* MGJSBridge */;
+			targetProxy = 6ECF0BB7EB6E2063A6C4720320A66D2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4F81F814EEDC6DC472D1CB4D5C13F111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4624C858656916C14F547478AF7E0AA /* MGJSBridge.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MGJSBridge/MGJSBridge-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/MGJSBridge/MGJSBridge.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MGJSBridge;
+				PRODUCT_NAME = MGJSBridge;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		528A2EE871224F1FC7C4C1961DA5D460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4624C858656916C14F547478AF7E0AA /* MGJSBridge.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MGJSBridge";
+				IBSC_MODULE = MGJSBridge;
+				INFOPLIST_FILE = "Target Support Files/MGJSBridge/ResourceBundle-MGJSBridgeResources-MGJSBridge-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = MGJSBridgeResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		66E2BDD1E8DB394472981C6CC7C69A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 271026BFAB0A325B38B984A62B918A94 /* MGJSBridge.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MGJSBridge";
+				IBSC_MODULE = MGJSBridge;
+				INFOPLIST_FILE = "Target Support Files/MGJSBridge/ResourceBundle-MGJSBridgeResources-MGJSBridge-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = MGJSBridgeResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B2F0C78092F1826C8153B9D2377B5C25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 271026BFAB0A325B38B984A62B918A94 /* MGJSBridge.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MGJSBridge/MGJSBridge-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/MGJSBridge/MGJSBridge.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MGJSBridge;
+				PRODUCT_NAME = MGJSBridge;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0548EFDD682FBF6AB50E9A9E291C973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 805D47E28B1B0FC682C6FED28D61C3BE /* Pods-JSBridge.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSBridge/Pods-JSBridge.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6EA53AE92D429DCADEE17A019101365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A00AD36DD6BE5C1E82F890960C20915B /* Pods-JSBridge.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSBridge/Pods-JSBridge.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A5BE611F245673B7266C3FA6AA4AC56 /* Build configuration list for PBXNativeTarget "MGJSBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F81F814EEDC6DC472D1CB4D5C13F111 /* Debug */,
+				B2F0C78092F1826C8153B9D2377B5C25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		660D6DFB5D3710CA7327C7E32648F91F /* Build configuration list for PBXNativeTarget "Pods-JSBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6EA53AE92D429DCADEE17A019101365 /* Debug */,
+				C0548EFDD682FBF6AB50E9A9E291C973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB6659E1820E9A4E2CAE4F50E0B1EFBF /* Build configuration list for PBXNativeTarget "MGJSBridge-MGJSBridgeResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528A2EE871224F1FC7C4C1961DA5D460 /* Debug */,
+				66E2BDD1E8DB394472981C6CC7C69A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
